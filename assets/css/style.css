@@ -81,3 +81,31 @@ display: table;
 max-width: 100%;
 width: 100%;
 }
+
+/*Ejemplo 2*/
+
+header{
+	text-align: center;
+}
+
+.back{
+	background-image: url(http://lorempixel.com/1024/600/cats/);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+.back .container{
+	background-color: rgba(255,255,255, 0.5);
+	position: relative;
+	height: 100vh;
+}
+
+.texto{
+	position: absolute;
+	top: 40%;
+	left: 35%;
+}
+
+/*siempre que se inicie una seccion nueva, abrir otro container.*/
