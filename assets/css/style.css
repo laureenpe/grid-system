@@ -109,3 +109,20 @@ header{
 }
 
 /*siempre que se inicie una seccion nueva, abrir otro container.*/
+
+/*EJercicio*/
+.cat-photo{
+	background-image: url(http://lorempixel.com/1024/600/cats/);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 20vh;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+/*para obligarla a q la imagen se mantenga dentro del grid - esto ya esta arriba en otro ejercicio
+.img-responsive{
+max-width: 100%;
+width: 100%;
+}*/
